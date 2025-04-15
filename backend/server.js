@@ -1,5 +1,8 @@
 const server = require("express")();
+const cors = require('cors')
 const port = 23456;
+
+server.use(cors());
 
 process.env.BASEDIR = process.cwd();
 
