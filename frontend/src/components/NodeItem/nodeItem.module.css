@@ -1,0 +1,24 @@
+.nodesContainer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .activeGroup {
+      background-color: rgba(0, 128, 255, 0.1); 
+    }
+  
+  .groupWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.5rem;
+  }
+  
+  .groupCaption {
+      color: #273240
+  }
+  
+ 

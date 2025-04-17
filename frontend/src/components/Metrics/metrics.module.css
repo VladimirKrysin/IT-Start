@@ -1,0 +1,30 @@
+.metricsContainer {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.5rem;
+  background-color: #FBFBFB;
+  cursor: pointer;
+}
+
+.activeGroup {
+    background-color: rgba(0, 128, 255, 0.1); 
+  }
+
+.groupWrapper {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.additionalInfo {
+  margin-top: 0.5rem;
+}
+
+
+.fontMedium {
+  font-weight: 500;
+}
